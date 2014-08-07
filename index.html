@@ -234,7 +234,6 @@
 				cinemaSign2.rotation.y = -Math.PI/2;
 				scene.add(cinemaSign2);	
 
-
 				scene2 = new THREE.Scene();
 
 				var cinemaTrailerDiv = document.createElement("div");
@@ -264,12 +263,11 @@
 				var object = new THREE.CSS3DObject( tescoElement );
 				object.position.x = -19.8;
 				object.position.y = 5.3;
-				object.position.z = -15.25;
+				object.position.z = -15.75;
 				object.scale.x = 1/1200 * 6;
 				object.scale.y = 1/600 * 6;
 				object.rotation.y = Math.PI/2;
 				scene2.add( object );
-
 
 				renderer2 = new THREE.CSS3DRenderer();
 				renderer2.setSize( window.innerWidth, window.innerHeight );
